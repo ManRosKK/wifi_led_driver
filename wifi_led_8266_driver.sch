@@ -71,7 +71,7 @@ F 3 "LL5817" H 3250 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 1900 3150 1700
-Text Label 2450 1900 0    50   ~ 0
+Text Label 3000 4050 0    50   ~ 0
 5V_INP
 Wire Wire Line
 	3050 1700 3050 1900
@@ -402,17 +402,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0111
 U 1 1 5B9E02BC
-P 2750 3850
-F 0 "#PWR0111" H 2750 3600 50  0001 C CNN
-F 1 "GND" H 2755 3677 50  0000 C CNN
-F 2 "" H 2750 3850 50  0001 C CNN
-F 3 "" H 2750 3850 50  0001 C CNN
-	1    2750 3850
+P 3000 4250
+F 0 "#PWR0111" H 3000 4000 50  0001 C CNN
+F 1 "GND" H 3005 4077 50  0000 C CNN
+F 2 "" H 3000 4250 50  0001 C CNN
+F 3 "" H 3000 4250 50  0001 C CNN
+	1    3000 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2400 3850 2750 3850
-Connection ~ 2750 3850
 Wire Wire Line
 	1200 3150 1200 2950
 Connection ~ 1200 2950
@@ -546,4 +545,69 @@ Wire Wire Line
 Wire Wire Line
 	3800 2950 3800 3350
 Connection ~ 3500 3350
+Wire Wire Line
+	2400 3550 2700 3550
+Wire Wire Line
+	2400 3650 2700 3650
+Wire Wire Line
+	2400 3750 2700 3750
+Wire Wire Line
+	2400 3950 2700 3950
+Text Label 2400 3550 0    50   ~ 0
+GPIO12
+Text Label 2400 3650 0    50   ~ 0
+GPIO13
+Text Label 2400 3750 0    50   ~ 0
+GPIO14
+Text Label 2400 3950 0    50   ~ 0
+GPIO16
+Text Label 3700 3950 0    50   ~ 0
+GPIO12
+Text Label 3700 4050 0    50   ~ 0
+GPIO13
+Text Label 3700 4150 0    50   ~ 0
+GPIO14
+Text Label 3700 4250 0    50   ~ 0
+GPIO16
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 5BA01931
+P 3400 4050
+F 0 "J4" H 3450 4367 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3450 4276 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical_SMD" H 3400 4050 50  0001 C CNN
+F 3 "~" H 3400 4050 50  0001 C CNN
+	1    3400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4050 3000 4050
+Wire Wire Line
+	3000 3950 3200 3950
+Wire Wire Line
+	3200 4150 3000 4150
+Wire Wire Line
+	3200 4250 3000 4250
+Wire Wire Line
+	3700 4250 4000 4250
+Wire Wire Line
+	3700 4150 4000 4150
+Wire Wire Line
+	3700 4050 4000 4050
+Wire Wire Line
+	3700 3950 4000 3950
+Wire Wire Line
+	3000 4250 3000 4150
+Connection ~ 3000 4250
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5BA0E33D
+P 3000 3950
+F 0 "#PWR0113" H 3000 3800 50  0001 C CNN
+F 1 "+3.3V" H 3015 4123 50  0000 C CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
