@@ -185,7 +185,7 @@ U 1 1 5B9D23CB
 P 2150 1900
 F 0 "J2" H 2256 2078 50  0000 C CNN
 F 1 "POWER" H 2256 1987 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 1900 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 2150 1900 50  0001 C CNN
 F 3 "~" H 2150 1900 50  0001 C CNN
 	1    2150 1900
 	1    0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kkrosman/kicad-project/wifi_led_driver/wifi_led_8266_driver.sch)
-    (date "pon, 17 wrz 2018, 11:15:02")
+    (date "śro, 19 wrz 2018, 10:42:16")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -58,7 +58,7 @@
       (tstamp 5B9D1E59))
     (comp (ref J2)
       (value POWER)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
+      (footprint TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x02_Male) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
